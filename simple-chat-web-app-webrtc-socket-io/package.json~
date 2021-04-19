@@ -1,0 +1,21 @@
+{
+  "name": "simple-chat-web-app-webrtc-socket-io",
+  "version": "1.0.0",
+  "description": "video chat between 2 people using simple-peer",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodmon server.js",
+    "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "simple-peer": "^9.11.0",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "watchify": "^4.0.0"
+  }
+}
